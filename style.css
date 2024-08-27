@@ -1,0 +1,32 @@
+
+/* Barra de navegación */
+.navbar {
+    padding: 16px;
+    background-color: aquamarine;
+}
+
+/* Margen general para los elementos */
+.carousel, .card, .list-group {
+    margin: 50px 20px 50px 20px;
+}
+h4, p {
+    margin: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: aquamarine;
+    margin-top: 100px;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;;
+}
+
+/* Media query */
+@media (max-width: 576px) {
+    h4{
+        text-align: center;
+    }
+    .foot {
+        text-align: center;
+    }
+}
